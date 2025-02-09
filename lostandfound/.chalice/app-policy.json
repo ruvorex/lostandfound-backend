@@ -1,0 +1,62 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1734363307489",
+      "Action": [
+        "ssm:GetParameter",
+        "ssm:GetParameters"
+      ],
+      "Effect": "Allow",
+      "Resource": "*"
+    },
+    {
+      "Sid": "Stmt1734363355839",
+      "Action": "cloudtrail:*",
+      "Effect": "Allow",
+      "Resource": "*"
+    },
+    {
+      "Sid": "Stmt1734363427782",
+      "Action": "cognito-idp:*",
+      "Effect": "Allow",
+      "Resource": "*"
+    },
+    {
+      "Sid": "Stmt1734363444102",
+      "Action": "cognito-identity:*",
+      "Effect": "Allow",
+      "Resource": "*"
+    },
+    {
+      "Sid": "Stmt1734364055462",
+      "Action": "logs:*",
+      "Effect": "Allow",
+      "Resource": "*"
+    },
+    {
+      "Sid": "Stmt1736093014200",
+      "Action": "s3:*",
+      "Effect": "Allow",
+      "Resource": "*"
+    },
+    {
+      "Sid": "Stmt1736093014201",
+      "Action": "sqs:*",
+      "Effect": "Allow",
+      "Resource": "*"
+    },
+    {
+      "Sid": "Stmt1736093014202",
+      "Action": "ses:*",
+      "Effect": "Allow",
+      "Resource": "*"
+    },
+    {
+      "Sid": "Stmt1736093014203",
+      "Action": "rekognition:DetectLabels",
+      "Effect": "Allow",
+      "Resource": "*"
+    }
+  ]
+}
