@@ -6,7 +6,8 @@
     "REGION": "us-east-1",
     "S3_BUCKET_NAME": "lostandfound-bucket-cad",
     "SQS_URL": "https://sqs.us-east-1.amazonaws.com/710271913812/lostandfound-queue",
-    "SES_EMAIL": "samuelongqixin@gmail.com"
+    "SES_EMAIL": "samuelongqixin@gmail.com",
+    "APP_NAME": "lostandfound"
   },
   "automatic_layer": true,
   "lambda_memory_size": 512,
