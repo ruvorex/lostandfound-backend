@@ -45,6 +45,8 @@ Edit **`.chalice/config.json`**:
     "USER_POOL_ID": "your-user-pool-id",
     "S3_BUCKET_NAME": "your-s3-bucket",
     "SQS_URL": "your-sqs-url"
+    "SES_EMAIL": "your-own-email"
+    "REGION": "your-own-region",
   }
 }
 ```
